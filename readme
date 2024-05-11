@@ -1,0 +1,17 @@
+Author: Said Elakad, 101261163
+
+Included Files: 
+Car.cc, Car.h: Defines a car by giving it a make, model, and year 
+Customer.cc, Customer.h: Defines customer a subclass of entity, allows each customer to have a car
+Entity.cc, Entity.h: A super class for both Mechanic and Customer and this gives them the basic class setup
+Garage.cc, Garage.h: The garage class brings the mechanic and customer classes together 
+Mechanic.cc, Mechanic.h: the mechanic class is a subclass of the entity class which represents the mechanic in the garage. It gives out mechanic id's. 
+Repair.cc, Repair.h: Repair class is the class which completes the repairs and manages other basic repair functions
+RepairList.cc, RepairList.h: A linked list of repairs that is used to keep track of what is completed and not completed.
+test.cc, TestControl.cc, TestControl.h, Tester.cc, Tester.h, View.cc, View.h, Makefile, Control.cc, Control.h, main.cc 
+
+Compiling Instructions: Navigate to the directory of the project in the terminal and run the command "make"
+
+Execution Instructions: After compiling in the directory of the project,  excute the command "./a3"
+
+Clean Instructions: Navigate to the directory of the project, run the command "make clean"
